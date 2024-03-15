@@ -1,12 +1,16 @@
 {
-  "name": "demo1",
-  "version": "1.0.0",
-  "description": "",
+  "name": "f-nft",
+  "version": "3.0.0",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mzkless/F-FNT"
+  },
+  "author": "mzkless",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.7",
@@ -15,6 +19,10 @@
   "dependencies": {
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
     "@openzeppelin/contracts": "^4.9.1",
-    "ethers": "^5.4.1"
+    "ethers": "^5.4.1",
+    "shell-oooooyoung": "^1.1.9"
+  },
+  "directories": {
+    "test": "test"
   }
 }
